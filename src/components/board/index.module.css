@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  background-color: salmon;
+  overflow: visible;
+}
+.row {
+  display: table-row;
+  height: 150px;
+}
+.table {
+  border: 1px solid black;
+  width: 100%;
+  display: table;
+  height: 450px;
+}
+.tableWrap {
+  width: 70%;
+  height: auto;
+}
+.newBtn {
+  height: 50px;
+  width: 300px;
+  margin: 5px;
+}
+.header {
+  display: block;
+  color: #fff;
+}
